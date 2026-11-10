@@ -79,7 +79,7 @@ Sent once the page has loaded its data files and registered its handler.
 
 The add-in starts a ten-second timer when it opens the panel. If no hello
 arrives, it closes the panel and shows a native Fusion message: the add-in
-needs an internet connection to wood.fusioncam.co.
+needs an internet connection to wood.fusioncam.com.au.
 
 ### pageError (page to add-in)
 
@@ -651,7 +651,7 @@ and the reading wins. Feeds in an inch document are untested.
 
 1. The page-to-add-in half of the messaging (`incomingFromHTML`) and the
    `returnData` reply. The connector could not wire them. Windows and Mac.
-2. The panel loads https://wood.fusioncam.co/fusion.html over HTTPS once
+2. The panel loads https://wood.fusioncam.com.au/fusion.html over HTTPS once
    the page is deployed, and the ten-second offline timeout works.
 3. The Mac pass of everything above.
 4. Feeds in an inch document, and identity on an unsaved document.

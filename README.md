@@ -2,7 +2,7 @@
 
 A free, browser-based speeds and feeds calculator for wood CNC work. No sign-up, no install, no server — it's a static page that runs entirely in your browser.
 
-Live at [wood.fusioncam.co](https://wood.fusioncam.co).
+Live at [wood.fusioncam.com.au](https://wood.fusioncam.com.au).
 
 It does two jobs. **Routing** gives you a spindle speed, a cutting feed and a chip load for solid carbide router bits on nested-base machines. **Drilling** gives you a speed, a plunge feed and a feed per revolution for the cabinet-making drills: dowel drills, through-hole drills and hinge drills from 3 to 40 mm, on machining centres and drill banks. Pick which one at the top of the page.
 

@@ -13,7 +13,7 @@ import react from "@vitejs/plugin-react";
 const repo = dirname(fileURLToPath(import.meta.url));
 
 // THE FUSION PANEL stays vanilla in this work (the plan's rulings) and the
-// add-in opens it at https://wood.fusioncam.co/fusion.html. So fusion.html and
+// add-in opens it at https://wood.fusioncam.com.au/fusion.html. So fusion.html and
 // every file it loads keep their addresses in the published site, and the
 // ?v=<PAGE_BUILD> cache keys in fusion.html stay as written, because Fusion's
 // palette browser serves a stale copy of any address whose key did not

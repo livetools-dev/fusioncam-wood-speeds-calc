@@ -63,7 +63,7 @@ exit code 2. It never skips quietly.
 ```bash
 node tools/baseline.mjs --compare                    # this checkout's legacy.html, served on a free port
 node tools/baseline.mjs --compare --base http://localhost:4173/     # vite preview
-node tools/baseline.mjs --compare --base https://wood.fusioncam.co/ # the live site
+node tools/baseline.mjs --compare --base https://wood.fusioncam.com.au/ # the live site
 node tools/baseline.mjs --compare --only drill-bank-on-hinge-35     # one state
 node tools/baseline.mjs --compare --base http://localhost:4173/ --sections url,form  # some parts only
 node tools/baseline.mjs --compare --base http://localhost:4173/ --url-only           # the address only

@@ -53,7 +53,7 @@ export function App() {
           <p>
             No warranty of any kind. You are responsible for making sure the settings are safe for your machine,
             tooling and material. Sources and data live in the{" "}
-            <Link href="https://github.com/RonnyM82/fusioncam-wood-speeds-calc">repository</Link>.
+            <Link href="https://github.com/livetools-dev/fusioncam-wood-speeds-calc">repository</Link>.
           </p>
         </Prose>
       </footer>

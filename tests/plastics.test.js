@@ -370,7 +370,10 @@ test('PL-PICKS', 'the material picks: one per family, hard first, the page and t
   }
   assert(picks[0].label.includes('cast acrylic') && picks[1].label.includes('extruded acrylic'), 'the labels say which acrylic');
   // The panel copies the same two picks, word for word.
-  const block = (src) => {
+  // Line endings differ between a Windows checkout and a Linux one, so the
+  // text is read with LF endings before it is cut.
+  const block = (raw) => {
+    const src = raw.replace(/\r\n/g, '\n');
     const from = src.indexOf('  // The plastics, beta only');
     return src.slice(from, src.indexOf('\n];', from)).replace(/\s+/g, ' ');
   };

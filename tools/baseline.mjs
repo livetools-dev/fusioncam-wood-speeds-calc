@@ -26,7 +26,7 @@
 // (2026-09-24), when index.html became the React page; it is the old
 // index.html renamed, not a byte changed, so its relative addresses still
 // resolve. With --base it loads that page instead: a `vite preview`, or
-// wood.fusioncam.co itself.
+// wood.fusioncam.com.au itself.
 //
 // Playwright is not a dependency of this repo, and this file adds none. It is
 // found, in order, at $PLAYWRIGHT_MODULE, then as a plain `playwright` package

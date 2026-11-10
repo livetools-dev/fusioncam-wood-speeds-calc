@@ -1,7 +1,7 @@
 """Wood speeds and feeds: the Fusion add-in entry point.
 
 One button in the Manufacture workspace opens a palette on
-wood.fusioncam.co. The page owns the machining policy. This side
+wood.fusioncam.com.au. The page owns the machining policy. This side
 moves data: it snapshots the document, carries the stored choices,
 writes the approved numbers, and never decides anything about a cut
 (decision A2, 2026-09-01).

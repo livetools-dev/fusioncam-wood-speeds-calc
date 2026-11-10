@@ -8,7 +8,7 @@ the parameter names, the unit factors, the operation identity, the
 machine spindle and the palette behaviour. The readings are in
 `spike-results-windows.md` and they are folded into `protocol.md` and
 the add-in. Two things stay open, and the spike serves both: the Mac
-pass, and the round trip with the live page at wood.fusioncam.co,
+pass, and the round trip with the live page at wood.fusioncam.com.au,
 which the connector could not drive.
 
 ## Install on Windows

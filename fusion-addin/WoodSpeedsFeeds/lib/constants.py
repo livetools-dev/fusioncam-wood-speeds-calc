@@ -40,7 +40,7 @@ PANEL_HEIGHT = 640
 # page from a local server only (section 11). The spike add-in serves
 # the live URL and the Mac pass.
 PANEL_URL = (
-    "https://wood.fusioncam.co/fusion.html?protocol="
+    "https://wood.fusioncam.com.au/fusion.html?protocol="
     + str(PROTOCOL_VERSION)
     + "&addin="
     + ADDIN_VERSION
@@ -55,7 +55,7 @@ DARK_THEME_NAMES = ("DarkBlueUserInterfaceTheme", "DarkGrayUserInterfaceTheme")
 # add-in closes the palette and shows OFFLINE_MESSAGE (plan, step 2).
 HELLO_TIMEOUT_SECONDS = 10.0
 OFFLINE_MESSAGE = (
-    "The add-in needs an internet connection to wood.fusioncam.co. "
+    "The add-in needs an internet connection to wood.fusioncam.com.au. "
     "Connect, then run the command again."
 )
 

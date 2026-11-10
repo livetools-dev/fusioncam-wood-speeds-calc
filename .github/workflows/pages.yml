@@ -6,7 +6,7 @@
 #
 # Every push runs the build and the gate. Only a push to `main` publishes, so
 # a push to any other branch proves the build on GitHub's machines without
-# touching wood.fusioncam.co.
+# touching wood.fusioncam.com.au.
 #
 # The gate here is `npm run check:site`: everything `npm run check` runs
 # except the paint measurement, which reads the design system's paint probe

@@ -1,11 +1,14 @@
 # Wood speeds and feeds calculator
 
-A public, deployed calculator at wood.fusioncam.co. A wrong number here goes to someone's
+A public, deployed calculator at wood.fusioncam.com.au. A wrong number here goes to someone's
 spindle, so a data or behaviour regression is worse than any styling gap.
+
+The repo moved from RonnyM82 to the `livetools-dev` GitHub organisation on 2026-11-11, and the page moves
+from wood.fusioncam.co to wood.fusioncam.com.au (the old address redirects to the new one).
 
 The public page is a Vite and React app built on the Livetools design system's React parts,
 converted on the `react-conversion` branch (`docs/CONVERSION_PLAN.md`) and live since
-2026-09-24. Every push to `main` builds, runs the gate and publishes to wood.fusioncam.co
+2026-09-24. Every push to `main` builds, runs the gate and publishes to wood.fusioncam.com.au
 (`.github/workflows/pages.yml`), so `main` is the live site: do not push to it without
 Scott's word.
 
@@ -280,7 +283,7 @@ and swapped in here with the lockfile updated. The GitHub Pages workflow was add
 without the paint step; only a push to `main` publishes). The ball nose and 3D surfacing
 went behind the beta tick (Scott's ruling that day). The Pages source was switched from the
 `main` branch to the workflow before `main` moved, then `main` was fast-forwarded to this
-branch (`a77b008`) and the first deploy ran. Against wood.fusioncam.co itself the baseline
+branch (`a77b008`) and the first deploy ran. Against wood.fusioncam.co itself (the old address) the baseline
 was 52 identical with the accepted differences, the paint measurement passed, and the Fusion
 panel's harness rendered a job with the beta tick present. `legacy.html` is not published
 (it is not in `SITE_FILES`); it stays in the repo for the baseline.
